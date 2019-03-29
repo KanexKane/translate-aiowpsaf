@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: All In One WP Security\n"
 "POT-Creation-Date: 2018-05-24 15:52+1000\n"
-"PO-Revision-Date: 2019-03-29 19:21+0000\n"
+"PO-Revision-Date: 2019-03-29 19:58+0000\n"
 "Last-Translator: administrator <kanexkane@gmail.com>\n"
 "Language-Team: ไทย\n"
 "Language: th\n"
@@ -75,11 +75,11 @@ msgstr ""
 #: admin/wp-security-admin-init.php:292 admin/wp-security-dashboard-menu.php:28
 #: admin/wp-security-dashboard-menu.php:64
 msgid "Dashboard"
-msgstr ""
+msgstr "หน้าควบคุม"
 
 #: admin/wp-security-admin-init.php:293 admin/wp-security-settings-menu.php:68
 msgid "Settings"
-msgstr ""
+msgstr "ตั้งค่า"
 
 #: admin/wp-security-admin-init.php:294
 #: admin/wp-security-user-accounts-menu.php:67
@@ -991,7 +991,7 @@ msgstr "IP Address ที่ถูกล็อค"
 
 #: admin/wp-security-dashboard-menu.php:31
 msgid "Permanent Block List"
-msgstr ""
+msgstr "รายการที่ถูกบล็อกถาวร"
 
 #: admin/wp-security-dashboard-menu.php:32
 msgid "AIOWPS Logs"
@@ -999,7 +999,7 @@ msgstr ""
 
 #: admin/wp-security-dashboard-menu.php:93
 msgid "For information, updates and documentation, please visit the"
-msgstr ""
+msgstr "สำหรับข้อมูล การอัพเดท และคู่มือการใช้ ไปดูที่"
 
 #: admin/wp-security-dashboard-menu.php:93
 msgid "AIO WP Security & Firewall Plugin"
@@ -1321,7 +1321,7 @@ msgstr "IP Address และ ช่วง IP ที่ถูกล็อคแ�
 
 #: admin/wp-security-dashboard-menu.php:801
 msgid "This tab displays the list of all permanently blocked IP addresses."
-msgstr ""
+msgstr "แท็บนี้แสดงรายการ IP Address ที่ถูกบล็อกถาวร"
 
 #: admin/wp-security-dashboard-menu.php:802 admin/wp-security-spam-menu.php:296
 msgid ""
@@ -1329,10 +1329,12 @@ msgid ""
 "IP addresses so it should be compatible with all web servers running "
 "WordPress."
 msgstr ""
+"หมายเหตุ: ระบบนี้ไม่ได้ใช้ .htaccess สำหรับการบล็อก IP Address ถาวร "
+"ดังนั้นมันควรเข้ากันได้กับทุกๆ เซิร์ฟเวอร์ที่ใช้ Wordpress"
 
 #: admin/wp-security-dashboard-menu.php:808
 msgid "Permanently Blocked IP Addresses"
-msgstr ""
+msgstr "บล็อก IP Address ถาวร"
 
 #: admin/wp-security-dashboard-menu.php:842
 msgid "View Logs for All In WP Security & Firewall Plugin"
@@ -3509,7 +3511,7 @@ msgstr ""
 
 #: admin/wp-security-settings-menu.php:30
 msgid "General Settings"
-msgstr ""
+msgstr "ตั้งค่าทั่วไป"
 
 #: admin/wp-security-settings-menu.php:33
 msgid "WP Version Info"
@@ -3521,7 +3523,7 @@ msgstr ""
 
 #: admin/wp-security-settings-menu.php:35
 msgid "Advanced Settings"
-msgstr ""
+msgstr "ตั้งค่าขั้นสูง"
 
 #: admin/wp-security-settings-menu.php:103
 msgid "All the security features have been disabled successfully!"
@@ -3553,12 +3555,16 @@ msgid ""
 "Thank you for using our WordPress security plugin. There are a lot of "
 "security features in this plugin."
 msgstr ""
+"ขอบคุณทำใช้งานปลั๊กอินความปลอดภัยของ Wordpress "
+"มันมีระบบป้องกันมากมายในปลั๊กอินนี้"
 
 #: admin/wp-security-settings-menu.php:162
 msgid ""
 "Go through each menu items and enable the security options to add more "
 "security to your site. Start by activating the basic features first."
 msgstr ""
+"ไปที่แต่ละเมนูและเปิดการใช้งานระบบความปลอดภัยต่างๆ เพื่อเพิ่มความปลอดภัย "
+"เริ่มต้นด้วยการไปเปิดการใช้งานระบบพื้นฐานก่อน"
 
 #: admin/wp-security-settings-menu.php:163
 msgid ""
@@ -3566,22 +3572,25 @@ msgid ""
 "wp-config.php file before activating the security features. This plugin has "
 "options that you can use to backup those resources easily."
 msgstr ""
+"แนะนำให้สำรองข้อมูล .htaccess ฐานข้อมูล และ wp-config.php "
+"ก่อนที่จะเปิดการใช้งานระบบความปลอดภัยต่างๆ "
+"ในปลั๊กอินนี้ก็มีตัวช่วยในการสำรองข้อมูลเหล่านี้ได้อย่างง่ายๆ"
 
 #: admin/wp-security-settings-menu.php:166
 msgid "Backup your database"
-msgstr ""
+msgstr "สำรองฐานข้อมูล"
 
 #: admin/wp-security-settings-menu.php:167
 msgid "Backup .htaccess file"
-msgstr ""
+msgstr "สำรองไฟล์ .htaccess"
 
 #: admin/wp-security-settings-menu.php:168
 msgid "Backup wp-config.php file"
-msgstr ""
+msgstr "สำรองไฟล์ wp-config.php"
 
 #: admin/wp-security-settings-menu.php:175
 msgid "Disable Security Features"
-msgstr ""
+msgstr "ปิดการใช้งานระบบความปลอดภัย"
 
 #: admin/wp-security-settings-menu.php:181
 msgid ""
@@ -3589,15 +3598,18 @@ msgid ""
 "security feature you enabled in this plugin, then use the following option "
 "to turn off all the security features of this plugin."
 msgstr ""
+"ถ้าคุณคิดว่าระบบความปลอดภัยบางอย่างในปลั๊กอินนี้ "
+"ทำให้เว็บเกิดข้อผิดพลาดในตอนที่เปิดใช้งานมัน "
+"ให้กดปุ่มด้านล่างเพื่อปิดการใช้งานระบบความปลอดภัยทั้งหมดของปลั๊กอินนี้"
 
 #: admin/wp-security-settings-menu.php:185
 msgid "Disable All Security Features"
-msgstr ""
+msgstr "ปิดการใช้งานระบบความปลอดภัยทั้งหมด"
 
 #: admin/wp-security-settings-menu.php:192
 #: admin/wp-security-settings-menu.php:202
 msgid "Disable All Firewall Rules"
-msgstr ""
+msgstr "ปิดการใช้งานกฎของ Firewall ทั้งหมด"
 
 #: admin/wp-security-settings-menu.php:198
 msgid ""
@@ -3605,6 +3617,9 @@ msgid ""
 "this plugin and it will also delete these rules from your .htacess file. Use "
 "it if you think one of the firewall rules is causing an issue on your site."
 msgstr ""
+"ปิดการใช้งานกฎ Firewall ทั้งหมดที่กำลังทำงานอยู่ "
+"และมันจะทำการลบออกจากกฎที่อยู่ในไฟล์ .htaccess "
+"ใช้มันเมื่อคิดว่ามีกฎบางข้อทำให้เว็บเกิดปัญหา"
 
 #: admin/wp-security-settings-menu.php:209
 msgid "Debug Settings"
@@ -3612,13 +3627,15 @@ msgstr ""
 
 #: admin/wp-security-settings-menu.php:215
 msgid "This setting allows you to enable/disable debug for this plugin."
-msgstr ""
+msgstr "เปิด/ปิด การ Debug ของปลั๊กอิน"
 
 #: admin/wp-security-settings-menu.php:216
 msgid ""
 "Note: the debug log files are located in the \"plugins/all-in-one-wp-"
 "security-and-firewall/logs\" directory."
 msgstr ""
+"หมายเหตุ: ไฟล์ Debug Log จะอยู่ที่โฟลเดอร์ \"plugins/all-in-one-wp-security-"
+"and-firewall-logs\""
 
 #: admin/wp-security-settings-menu.php:222
 msgid "Enable Debug"
@@ -3629,10 +3646,13 @@ msgid ""
 "Check this if you want to enable debug. You should keep this option disabled "
 "after you have finished debugging the issue."
 msgstr ""
+"ติ๊กมันถ้าคุณต้องการเปิดใช้การ Debug "
+"และอย่าลืมกลับมาปิดมันหลังจากเสร็จแล้วด้วยล่ะ"
 
 #: admin/wp-security-settings-menu.php:226
 msgid "Please note that the log files are reset on every plugin update."
 msgstr ""
+"หมายเหตุ: ไฟล์ Log ทั้งหมดจะถูกล้างทิ้งตอนอัพเดทปลั๊กอินทุกๆ ครั้งอีกด้วย"
 
 #: admin/wp-security-settings-menu.php:230
 msgid "Save Debug Settings"
@@ -3709,7 +3729,7 @@ msgstr ""
 
 #: admin/wp-security-settings-menu.php:342
 msgid "Backup .htaccess File"
-msgstr ""
+msgstr "สำรองไฟล์ .htaccess"
 
 #: admin/wp-security-settings-menu.php:346
 msgid "Restore from a backed up .htaccess file"
@@ -3784,7 +3804,7 @@ msgstr ""
 
 #: admin/wp-security-settings-menu.php:453
 msgid "Backup wp-config.php File"
-msgstr ""
+msgstr "สำรองไฟล์ wp-config.php"
 
 #: admin/wp-security-settings-menu.php:458
 msgid "Restore from a backed up wp-config file"
