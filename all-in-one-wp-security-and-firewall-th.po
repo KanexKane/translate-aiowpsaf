@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: All In One WP Security\n"
 "POT-Creation-Date: 2018-05-24 15:52+1000\n"
-"PO-Revision-Date: 2019-03-29 19:58+0000\n"
+"PO-Revision-Date: 2019-03-29 20:01+0000\n"
 "Last-Translator: administrator <kanexkane@gmail.com>\n"
 "Language-Team: ไทย\n"
 "Language: th\n"
@@ -3623,7 +3623,7 @@ msgstr ""
 
 #: admin/wp-security-settings-menu.php:209
 msgid "Debug Settings"
-msgstr ""
+msgstr "ตั้งค่า Debug"
 
 #: admin/wp-security-settings-menu.php:215
 msgid "This setting allows you to enable/disable debug for this plugin."
@@ -3639,7 +3639,7 @@ msgstr ""
 
 #: admin/wp-security-settings-menu.php:222
 msgid "Enable Debug"
-msgstr ""
+msgstr "เปิดใช้งาน Debug"
 
 #: admin/wp-security-settings-menu.php:225
 msgid ""
@@ -3656,7 +3656,7 @@ msgstr ""
 
 #: admin/wp-security-settings-menu.php:230
 msgid "Save Debug Settings"
-msgstr ""
+msgstr "บันทึกการตั้งค่า Debug"
 
 #: admin/wp-security-settings-menu.php:259
 msgid ""
