@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: All In One WP Security\n"
 "POT-Creation-Date: 2018-05-24 15:52+1000\n"
-"PO-Revision-Date: 2019-03-29 20:01+0000\n"
+"PO-Revision-Date: 2019-03-30 00:03+0000\n"
 "Last-Translator: administrator <kanexkane@gmail.com>\n"
 "Language-Team: ไทย\n"
 "Language: th\n"
@@ -341,7 +341,7 @@ msgstr ""
 #: admin/wp-security-user-registration-menu.php:242
 #: admin/wp-security-user-registration-menu.php:305
 msgid "Save Settings"
-msgstr ""
+msgstr "บันทึกการตั้งค่า"
 
 #: admin/wp-security-brute-force-menu.php:29
 #: admin/wp-security-dashboard-menu.php:444
@@ -1064,8 +1064,8 @@ msgid ""
 "Below is the current status of the critical features that you should "
 "activate on your site to achieve a minimum level of recommended security"
 msgstr ""
-"ด้านล่างนี่คือสถานะของระบบสำคัญมากๆ "
-"เพื่อความปลอดภัยเราขอแนะนำว่าคุณควรจะเปิดใช้งานมันบนเว็บของคุณ"
+"ด้านล่างนี่คือสถานะของระบบที่สำคัญมากๆ "
+"เพื่อความปลอดภัยเราขอแนะนำว่าคุณควรจะเปิดใช้งานมัน"
 
 #: admin/wp-security-dashboard-menu.php:262
 msgid "Admin Username"
@@ -3515,7 +3515,7 @@ msgstr "ตั้งค่าทั่วไป"
 
 #: admin/wp-security-settings-menu.php:33
 msgid "WP Version Info"
-msgstr ""
+msgstr "ข้อมูลเวอร์ชั่น Wordpress"
 
 #: admin/wp-security-settings-menu.php:34
 msgid "Import/Export"
@@ -3564,7 +3564,7 @@ msgid ""
 "security to your site. Start by activating the basic features first."
 msgstr ""
 "ไปที่แต่ละเมนูและเปิดการใช้งานระบบความปลอดภัยต่างๆ เพื่อเพิ่มความปลอดภัย "
-"เริ่มต้นด้วยการไปเปิดการใช้งานระบบพื้นฐานก่อน"
+"โดยเริ่มต้นด้วยการไปเปิดการใช้งานระบบพื้นฐานก่อน"
 
 #: admin/wp-security-settings-menu.php:163
 msgid ""
@@ -3694,38 +3694,43 @@ msgid ""
 "htaccess Restore operation failed! Please check the contents of the file you "
 "are trying to restore from."
 msgstr ""
+"กู้คืนไฟล์ .htaccess ผิดพลาด! เช็คเนื้อหาของไฟล์และลองกู้คืนใหม่อีกครั้ง"
 
 #: admin/wp-security-settings-menu.php:318
 msgid ".htaccess File Operations"
-msgstr ""
+msgstr "การทำงานของไฟล์ .htaccess"
 
 #: admin/wp-security-settings-menu.php:321
 msgid ""
 "Your \".htaccess\" file is a key component of your website's security and it "
 "can be modified to implement various levels of protection mechanisms."
 msgstr ""
+"ไฟล์ .htaccess คือส่วนหลักของความปลอดภัยของเว็บไซต์ "
+"และมันสามารถปรับแต่งให้เข้ากับระดับของการป้องกัน"
 
 #: admin/wp-security-settings-menu.php:322
 msgid ""
 "This feature allows you to backup and save your currently active .htaccess "
 "file should you need to re-use the the backed up file in the future."
 msgstr ""
+"ระบบนี้ช่วยให้คุณสามารถสำรองข้อมูล และบันทึกไฟล์ .htaccess "
+"เผื่อนำกลับมาใช้ในภายหลัง"
 
 #: admin/wp-security-settings-menu.php:323
 msgid ""
 "You can also restore your site's .htaccess settings using a backed up ."
 "htaccess file."
-msgstr ""
+msgstr "คุณสามารถกู้คืนไฟล์ .htaccess โดยใช้ไฟล์ที่สำรองไว้"
 
 #: admin/wp-security-settings-menu.php:337
 msgid "Save the current .htaccess file"
-msgstr ""
+msgstr "บันทึกไฟล์ .htaccess"
 
 #: admin/wp-security-settings-menu.php:341
 msgid ""
 "Click the button below to backup and save the currently active .htaccess "
 "file."
-msgstr ""
+msgstr "คลิกปุ่มด้านล่างเพื่อสำรองข้อมูล และบันทึกไฟล์ .htaccess"
 
 #: admin/wp-security-settings-menu.php:342
 msgid "Backup .htaccess File"
@@ -3733,21 +3738,23 @@ msgstr "สำรองไฟล์ .htaccess"
 
 #: admin/wp-security-settings-menu.php:346
 msgid "Restore from a backed up .htaccess file"
-msgstr ""
+msgstr "กู้คืนจากไฟล์ .htaccess ที่สำรองไว้"
 
 #: admin/wp-security-settings-menu.php:352
 msgid ".htaccess file to restore from"
-msgstr ""
+msgstr "ไฟล์ .htaccess ที่ต้องการกู้คืน"
 
 #: admin/wp-security-settings-menu.php:358
 msgid ""
 "After selecting your file, click the button below to restore your site using "
 "the backed up htaccess file (htaccess_backup.txt)."
 msgstr ""
+"หลังจากเลือกไฟล์แล้ว คลิกปุ่มด้านล่างเพื่อกู้คืนไฟล์ .htaccess "
+"(htaccess_backup.txt)"
 
 #: admin/wp-security-settings-menu.php:364
 msgid "Restore .htaccess File"
-msgstr ""
+msgstr "กู้คืนไฟล์ .htaccess"
 
 #: admin/wp-security-settings-menu.php:397
 msgid "Please choose a wp-config.php file to restore from."
@@ -3771,7 +3778,7 @@ msgstr ""
 
 #: admin/wp-security-settings-menu.php:429
 msgid "wp-config.php File Operations"
-msgstr ""
+msgstr "การทำงานของไฟล์ wp-config.php"
 
 #: admin/wp-security-settings-menu.php:432
 msgid ""
@@ -3779,28 +3786,32 @@ msgid ""
 "installation. It is a primary configuration file and contains crucial things "
 "such as details of your database and other critical components."
 msgstr ""
+"ไฟล์ wp-config.php คือไฟล์ที่สำคัญไฟล์หนึ่งในการติดตั้ง Wordpress "
+"มันจะไฟล์ที่กำหนดค่าหลักๆ เช่น ข้อมูลการเชื่อมต่อฐานข้อมูล และส่วนสำคัญต่างๆ"
 
 #: admin/wp-security-settings-menu.php:433
 msgid ""
 "This feature allows you to backup and save your currently active wp-config."
 "php file should you need to re-use the the backed up file in the future."
 msgstr ""
+"ระบบส่วนนี้ช่วยให้คุณสามารถสำรองข้อมูล และบันทึกไฟล์ wp-config.php "
+"เผื่อนำกลับมาใช้ในภายหลัง "
 
 #: admin/wp-security-settings-menu.php:434
 msgid ""
 "You can also restore your site's wp-config.php settings using a backed up wp-"
 "config.php file."
-msgstr ""
+msgstr "คุณสามารถกู้คืนไฟล์ wp-config.phpโดยใช้ไฟล์ที่สำรองไว้"
 
 #: admin/wp-security-settings-menu.php:448
 msgid "Save the current wp-config.php file"
-msgstr ""
+msgstr "บันทึกไฟล์ wp-config.php"
 
 #: admin/wp-security-settings-menu.php:452
 msgid ""
 "Click the button below to backup and download the contents of the currently "
 "active wp-config.php file."
-msgstr ""
+msgstr "คลิกปุ่มด้านล่างเพื่อสำรองและดาวน์โหลดเนื้อหาของไฟล์ wp-config.php"
 
 #: admin/wp-security-settings-menu.php:453
 msgid "Backup wp-config.php File"
@@ -3808,25 +3819,27 @@ msgstr "สำรองไฟล์ wp-config.php"
 
 #: admin/wp-security-settings-menu.php:458
 msgid "Restore from a backed up wp-config file"
-msgstr ""
+msgstr "กู้คืนจากไฟล์ wp-config.php ที่สำรองไว้"
 
 #: admin/wp-security-settings-menu.php:464
 msgid "wp-config file to restore from"
-msgstr ""
+msgstr "ไฟล์ wp-config.php ที่จะกู้คืน"
 
 #: admin/wp-security-settings-menu.php:470
 msgid ""
 "After selecting your file click the button below to restore your site using "
 "the backed up wp-config file (wp-config.php.backup.txt)."
 msgstr ""
+"หลังจากเลือกไฟล์แล้ว คลิกปุ่มด้านล่างเพื่อกู้คืนไฟล์ wp-config.php (wp-"
+"config.php.backup.txt)"
 
 #: admin/wp-security-settings-menu.php:476
 msgid "Restore wp-config File"
-msgstr ""
+msgstr "กู้คืนไฟล์ wp-config.php"
 
 #: admin/wp-security-settings-menu.php:515
 msgid "WP Generator Meta Tag & Version Info"
-msgstr ""
+msgstr "ข้อมูลแท็ก Meta และเวอร์ชั่นของ Wordpress"
 
 #: admin/wp-security-settings-menu.php:518
 msgid ""
@@ -3834,6 +3847,8 @@ msgid ""
 "\"head\" tags of every page on your site's front end. Below is an example of "
 "this:"
 msgstr ""
+"Wordpress จะสร้างข้อมูล meta บางตัวโดยอัตโนมัติภายในแท็ก <head></head> "
+"ของทุกๆ หน้าบนเว็บไซต์ ตัวอย่าง:"
 
 #: admin/wp-security-settings-menu.php:520
 msgid ""
@@ -3841,18 +3856,24 @@ msgid ""
 "currently running and thus can help hackers or crawlers scan your site to "
 "see if you have an older version of WordPress or one with a known exploit."
 msgstr ""
+"ข้อมูล meta ด้านบนจะแสดงเวอร์ชั่นของ Wordpress ของคุณ "
+"และมันช่วยให้เหล่าแฮกเกอร์หรือบอทรู้ว่า เว็บคุณเวอร์ชั่นอะไร "
+"และรู้ว่าจะเจาะเข้ามาผ่านทางช่องโหว่ไหน"
 
 #: admin/wp-security-settings-menu.php:521
 msgid ""
 "There are also other ways wordpress reveals version info such as during "
 "style and script loading. An example of this is:"
 msgstr ""
+"นอกจากนี้ยังมีส่วนอื่นๆ ที่แสดงเวอร์ชั่นของ Wordpress ออกมา เช่น "
+"ส่วนเรียกใช้ style และ script เช่น"
 
 #: admin/wp-security-settings-menu.php:523
 msgid ""
 "This feature will allow you to remove the WP generator meta info and other "
 "version info from your site's pages."
 msgstr ""
+"ระบบส่วนนี้จะช่วยให้นำข้อมูล meta เกี่ยวกับเวอร์ชั่นของ Wordpress ออกไป"
 
 #: admin/wp-security-settings-menu.php:529
 msgid "WP Generator Meta Info"
@@ -3867,6 +3888,8 @@ msgid ""
 "Check this if you want to remove the version and meta info produced by WP "
 "from all pages"
 msgstr ""
+"ติ๊กมันถ้าคุณต้องการนำเลขเวอร์ชั่น และข้อมูล meta ที่ถูกสร้างโดย Wordpress "
+"ออกในทุกๆ หน้า"
 
 #: admin/wp-security-settings-menu.php:574
 msgid "Please choose a file to import your settings from."
@@ -3978,7 +4001,7 @@ msgstr ""
 msgid ""
 "After selecting your file, click the button below to apply the settings to "
 "your site."
-msgstr ""
+msgstr "หลังจากเลือกไฟล์แล้ว คลิกปุ่มด้านล่างเพื่อนำการตั้งค่าเว็บไซต์ไปใช้"
 
 #: admin/wp-security-settings-menu.php:711
 msgid "Copy/Paste Import Data"
