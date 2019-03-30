@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: All In One WP Security\n"
 "POT-Creation-Date: 2018-05-24 15:52+1000\n"
-"PO-Revision-Date: 2019-03-30 00:03+0000\n"
+"PO-Revision-Date: 2019-03-30 00:19+0000\n"
 "Last-Translator: administrator <kanexkane@gmail.com>\n"
 "Language-Team: ไทย\n"
 "Language: th\n"
@@ -84,7 +84,7 @@ msgstr "ตั้งค่า"
 #: admin/wp-security-admin-init.php:294
 #: admin/wp-security-user-accounts-menu.php:67
 msgid "User Accounts"
-msgstr ""
+msgstr "บัญชีผู้ใช้"
 
 #: admin/wp-security-admin-init.php:295
 #: admin/wp-security-user-login-menu.php:65
@@ -2258,7 +2258,7 @@ msgstr ""
 
 #: admin/wp-security-filesystem-menu.php:448
 msgid "No Action Required"
-msgstr ""
+msgstr "ไม่มีอะไรที่คุณต้องทำแล้ว"
 
 #: admin/wp-security-filesystem-menu.php:488
 #, php-format
@@ -4410,11 +4410,11 @@ msgstr ""
 
 #: admin/wp-security-user-accounts-menu.php:32
 msgid "WP Username"
-msgstr ""
+msgstr "Username"
 
 #: admin/wp-security-user-accounts-menu.php:33
 msgid "Display Name"
-msgstr ""
+msgstr "ชื่อที่แสดงให้คนทั่วไปเห็น"
 
 #: admin/wp-security-user-accounts-menu.php:34
 #: other-includes/wp-security-rename-login-feature.php:1029
@@ -4423,13 +4423,14 @@ msgstr ""
 
 #: admin/wp-security-user-accounts-menu.php:89
 msgid "Admin User Security"
-msgstr ""
+msgstr "ความปลอดภัยของ Admin"
 
 #: admin/wp-security-user-accounts-menu.php:92
 msgid ""
 "By default, WordPress sets the administrator username to \"admin\" at "
 "installation time."
 msgstr ""
+"โดยปกติแล้ว Wordpress จะกำหนด username ของผู้ดูแลระบบว่า admin ในตอนติดตั้ง"
 
 #: admin/wp-security-user-accounts-menu.php:93
 msgid ""
@@ -4437,27 +4438,34 @@ msgid ""
 "\"Brute Force Login Attacks\" where they repeatedly try to guess the "
 "password by using \"admin\" for username."
 msgstr ""
+"แฮกเกอร์ส่วนใหญ่จะลองใช้ข้อมูลดังกล่าวเพื่อทำการพยายาม \"Brute Force Login "
+"Attacks (โจมตีด้วยการเข้าสู่ระบบโดยการสุ่มหลายๆ ครั้ง)\" "
+"โดยพยายามสุ่มรหัสผ่านโดยใช้ username \"admin\""
 
 #: admin/wp-security-user-accounts-menu.php:94
 msgid ""
 "From a security perspective, changing the default \"admin\" user name is one "
 "of the first and smartest things you should do on your site."
 msgstr ""
+"ในมุมมองของความปลอดภัย การเปลี่ยน username ของผู้ดูแลระบบจาก \"admin\" "
+"เป็นชื่ออื่นเป็นสิ่งแรกที่ควรทำมากที่สุด"
 
 #: admin/wp-security-user-accounts-menu.php:95
 msgid ""
 "This feature will allow you to change your default \"admin\" user name to a "
 "more secure name of your choosing."
 msgstr ""
+"ระบบส่วนนี้จะช่วยให้คุณเปลี่ยน username \"admin\" "
+"เป็นชื่ออื่นเพื่อความปลอดภัยที่มากขึ้น"
 
 #: admin/wp-security-user-accounts-menu.php:102
 msgid "List of Administrator Accounts"
-msgstr ""
+msgstr "รายชื่อบัญชีของผู้ดูแลระบบ"
 
 #: admin/wp-security-user-accounts-menu.php:111
 #: classes/grade-system/wp-security-feature-item-manager.php:36
 msgid "Change Admin Username"
-msgstr ""
+msgstr "เปลี่ยน Admin Username"
 
 #: admin/wp-security-user-accounts-menu.php:119
 msgid ""
@@ -4488,32 +4496,33 @@ msgstr ""
 
 #: admin/wp-security-user-accounts-menu.php:142
 msgid "No action required! "
-msgstr ""
+msgstr "ไม่มีอะไรที่คุณต้องทำแล้ว!"
 
 #: admin/wp-security-user-accounts-menu.php:144
 msgid ""
 "Your site does not have any account which uses the default \"admin\" "
 "username. "
-msgstr ""
+msgstr "เว็บของคุณไม่มีใครใช้ username ชื่อ admin แล้ว "
 
 #: admin/wp-security-user-accounts-menu.php:145
 msgid "This is good security practice."
-msgstr ""
+msgstr "เยี่ยมมาก!"
 
 #: admin/wp-security-user-accounts-menu.php:157
 msgid "Display Name Security"
-msgstr ""
+msgstr "ความปลอดภัยของชื่อที่แสดงให้คนทั่วไปเห็น"
 
 #: admin/wp-security-user-accounts-menu.php:160
 msgid ""
 "When you submit a post or answer a comment, WordPress will usually display "
 "your \"nickname\"."
 msgstr ""
+"เมื่อคุณสร้างโพสต์หรือความคิดเห็นใหม่ Wordpress มักจะแสดง \"ชื่อเล่น\" ของคุณ"
 
 #: admin/wp-security-user-accounts-menu.php:161
 msgid ""
 "By default the nickname is set to the login (or user) name of your account."
-msgstr ""
+msgstr "โดยปกติชื่อเล่นจะเป็นชื่อ username ของคุณ"
 
 #: admin/wp-security-user-accounts-menu.php:162
 msgid ""
@@ -4521,6 +4530,8 @@ msgid ""
 "name is bad practice because it gives a hacker at least half of your "
 "account's login credentials."
 msgstr ""
+"ในมุมมองของความปลอดภัย การใช้ชื่อเล่นที่เป็นชื่อเดียวกันกับ username "
+"มันไม่ดี เพราะมันจะช่วยให้แฮกเกอร์ลดเวลาในการแฮกเข้าบัญชีของคุณ"
 
 #: admin/wp-security-user-accounts-menu.php:163
 msgid ""
@@ -4528,6 +4539,9 @@ msgid ""
 "your <strong>nickname</strong> and <strong>Display name</strong> to be "
 "different from your <strong>Username</strong>."
 msgstr ""
+"ดังนั้นเพื่อความปลอดภัย คุณควรเปลี่ยน <strong>ชื่อเล่น</strong> และ <strong>"
+"ชื่อที่แสดงให้คนทั่วไปเห็น</strong> ให้แตกต่างกันกับ <strong>"
+"Username</strong> ที่คุณใช้"
 
 #: admin/wp-security-user-accounts-menu.php:169
 msgid "Modify Accounts With Identical Login Name & Display Name"
@@ -4545,7 +4559,7 @@ msgstr ""
 
 #: admin/wp-security-user-accounts-menu.php:194
 msgid "No action required."
-msgstr ""
+msgstr "ไม่มีอะไรที่คุณต้องทำแล้ว"
 
 #: admin/wp-security-user-accounts-menu.php:195
 msgid ""
@@ -5129,7 +5143,7 @@ msgstr ""
 
 #: classes/grade-system/wp-security-feature-item-manager.php:38
 msgid "Change Display Name"
-msgstr ""
+msgstr "เปลี่ยนชื่อที่แสดงให้คนทั่วไปเห็น"
 
 #: classes/grade-system/wp-security-feature-item-manager.php:45
 msgid "Custom Login Captcha"
